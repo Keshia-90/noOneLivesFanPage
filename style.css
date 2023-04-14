@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Lobster&family=Macondo&family=Permanent+Marker&display=swap');
+.bg1 {
+    margin:0;
+    padding:0;
+    background:url("https://www.electric-shadows.com/wp-content/uploads/2013/09/No-One-Lives-quad-poster-Luke-Evans.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ENTER{
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(0, 0, 0);
+    font-size: 100px;
+    background-color: rgba(139, 0, 0, 0.718);
+    border-style: ridge;
+    border-color: darkslategray;
+    border-width: 20px;
+    position:absolute;
+    margin:auto;
+    top: 40%;
+    right: 15%;
+    transition: transform 1s ease-in-out;
+    text-align: justify;   
+}
+#ENTER:hover{
+    border-radius: 0%;
+    transform: skew(30deg, 20deg);
+}
+
+.bg2{
+    margin:0;
+    padding:0;
+    background: url(https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8eed65c5f2bba6b05f1b35f07f2fa54502f756de1df7e9786069432db9838bd7._UY500_UX667_RI_V_TTW_.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(247, 1, 1);
+    font-size: 40px;
+    border-style: double;
+    border-color: rgba(255, 237, 72, 0.622);
+    border-width: 20px;
+    background-color: rgba(0, 0, 0, 0.485);
+}
+
+.rec{
+    position: absolute;
+    left: 30%;
+    top:2%;
+    justify-content: center;
+}
+
+
+
+
+
+h1{
+    font-family: 'Macondo', cursive;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+}
+
+.syn{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.trailer{
+    position:absolute;
+    top: 30%;
+    left: 65%;
+    border-style:ridge;
+    border-width: 20px;
+    border-color: rgb(255, 237, 72);
+}
+
+.h1syn{
+    border-style:ridge;
+    border-width: 20px;
+    border-color: rgb(255, 237, 72);
+    position:absolute;
+    margin:auto;
+    top: 20%;
+    right: 32%;
+    background-color:rgba(125, 123, 123, 0.599)
+}
+.h1syn{
+    display: flex;
+    min-width: 100vh;
+    flex-direction:column;
+    width: 20px;
+    justify-content:flex-end;
+    left:2%;
+}
+
+h2{ 
+    font-family: 'Macondo', cursive;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+}
+.opinion{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.opinion2{
+    display: flex;
+    min-width: 100vh;
+    flex-direction:column;
+    width: 20px;
+    justify-content:flex-end;
+}
+.opinion2{
+    border-style:ridge;
+    border-width: 20px;
+    border-color: rgb(255, 237, 72);
+    position:absolute;
+    margin:auto;
+    top: 110%;
+    right: 3%;
+    background-color:rgba(125, 123, 123, 0.599)
+}
+
+
+.gif{
+    position:absolute;
+    top: 110%;
+    right: 58%;
+    height: 40%;
+    width: 35%;
+    border-style:ridge;
+    border-width: 10px;
+    border-color: rgb(255, 237, 72);
+}
+
+.imdb{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    position:absolute;
+    margin: auto;
+    top: 88%;
+    left: 65%;
+    border-style:outset;
+    border-width: 10px;
+    border-color: rgb(255, 237, 72);
+    background-color: rgba(0, 0, 0, 0.951);
+}
+.imdb:hover{
+    transform:rotate(0.5turn);
+    overflow:hidden;
+    background-color: rgba(255, 255, 255, 0.778);
+    box-shadow: rgba(0, 0, 0, 0.706) 7px 7px;
+    border-color: black;
+}
+
+.bg3{
+    margin:0;
+    padding:0;
+    background-image:url(https://media.timeout.com/images/100676231/750/422/image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.recommend{
+    display: flex;
+    min-width: 100vh;
+    flex-direction:column;
+    width: 30px;
+    justify-content:flex-end;
+}
+.recommend{
+    border-style:ridge;
+    border-width: 20px;
+    border-color: rgb(255, 237, 72);
+    position:absolute;
+    margin:17px;
+    top: 50%;
+    left: 3%;
+    background-color:rgba(125, 123, 123, 0.599);
+}
+
+h3{
+    display:inline;
+    font-family: 'Macondo', cursive;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(255, 237, 72);
+    border-width: 20px;
+    background-color: rgba(125, 123, 123, 0.599)
+}
+h3{
+    display: flex;
+    min-height: 10vh;
+    position:absolute;
+    margin:auto;
+    top: 20%;
+    left: 20%;
+}
+
+h4{font-family: 'Macondo', cursive;
+font-size: 70px;
+text-decoration: underline;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-line: underline;
+}
+
+.para{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.films{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.webl{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    position:absolute;
+    margin: auto;
+    top: 180%;
+    left: 28%;
+    border-style:outset;
+    border-width: 10px;
+    border-color: rgb(255, 237, 72);
+    background-color: rgba(0, 0, 0, 0.951);
+}
+.webl:hover{
+    animation: wiggle 2s linear infinite;
+    overflow:hidden;
+    background-color: rgb(255, 237, 72);
+    box-shadow: rgba(0, 0, 0, 0.706) 7px 7px;
+    border-color: black;
+    border-radius: 50%;
+}
+@keyframes wiggle {
+    0%, 7% {
+    transform: rotateZ(0);
+    }
+    15% {
+    transform: rotateZ(-15deg);
+    }
+    20% {
+    transform: rotateZ(10deg);
+    }
+    25% {
+    transform: rotateZ(-10deg);
+    }
+    30% {
+    transform: rotateZ(6deg);
+    }
+    35% {
+    transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+    transform: rotateZ(0);
+    }
+}
